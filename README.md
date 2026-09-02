@@ -63,7 +63,7 @@
 
 **[Multi-tenant scheduling analytics](https://github.com/novabridgesys/multi-tenant-scheduling-analytics)**
 
-Public dbt reconstruction of a multi-tenant booking warehouse: bronze, silver, and gold layers, dual date-basis KPIs, and tenant-scoped builds.
+Public dbt reconstruction of a multi-tenant booking warehouse: bronze, silver, and gold layers, dual date-basis KPIs, and tenant-scoped builds. Production platform: [analytics.novabridgesys.com](https://analytics.novabridgesys.com).
 
 25 models · 5 seeds · 59 data tests. A clone runs `dbt build` with no cloud account.
 
@@ -71,11 +71,9 @@ Public dbt reconstruction of a multi-tenant booking warehouse: bronze, silver, a
 ![dbt](https://img.shields.io/badge/dbt-212932?style=flat-square&logo=dbt&logoColor=8C52FF)
 ![DuckDB](https://img.shields.io/badge/DuckDB-212932?style=flat-square&logo=duckdb&logoColor=8C52FF)
 
-**[Cocoa Study](https://cocoastudy.com)**
+**Cocoa Study**
 
-Invite-only study product. Ingests notes, generates flashcards, and runs SM-2 review with a RAG tutor.
-
-Live at cocoastudy.com. Next.js, Supabase, Prisma, and OpenAI.
+Invite-only study product. Ingests notes, generates flashcards, and runs SM-2 review with a RAG tutor. Next.js, Supabase, Prisma, and OpenAI.
 
 ![Next.js](https://img.shields.io/badge/Next.js-212932?style=flat-square&logo=nextdotjs&logoColor=8C52FF)
 ![Supabase](https://img.shields.io/badge/Supabase-212932?style=flat-square&logo=supabase&logoColor=8C52FF)
