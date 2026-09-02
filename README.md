@@ -1,18 +1,18 @@
 <div align="center">
-  <img src="./assets/masthead-light.svg?v=2#gh-light-mode-only" alt="Angel Cruz" height="126" />
-  <img src="./assets/masthead-dark.svg?v=2#gh-dark-mode-only" alt="Angel Cruz" height="126" />
+  <img src="./assets/nb-masthead-light.svg#gh-light-mode-only" alt="Angel Cruz" height="126" />
+  <img src="./assets/nb-masthead-dark.svg#gh-dark-mode-only" alt="Angel Cruz" height="126" />
   <p><em>Data-minded software engineer. I model warehouses and ship the products that sit on them.</em></p>
 </div>
 
-<img src="./assets/rule-light.svg?v=2#gh-light-mode-only" alt="" width="720" />
-<img src="./assets/rule-dark.svg?v=2#gh-dark-mode-only" alt="" width="720" />
+<img src="./assets/nb-rule-light.svg#gh-light-mode-only" alt="" width="720" />
+<img src="./assets/nb-rule-dark.svg#gh-dark-mode-only" alt="" width="720" />
 
 <table>
 <tr>
 <td valign="top" width="52%">
 
-<img src="./assets/label-about-light.svg?v=2#gh-light-mode-only" alt="01 ABOUT" height="18" />
-<img src="./assets/label-about-dark.svg?v=2#gh-dark-mode-only" alt="01 ABOUT" height="18" />
+<img src="./assets/nb-label-about-light.svg#gh-light-mode-only" alt="01 ABOUT" height="18" />
+<img src="./assets/nb-label-about-dark.svg#gh-dark-mode-only" alt="01 ABOUT" height="18" />
 
 - I build analytics systems and full-stack products under [Nova Bridge Technologies](https://github.com/novabridgesys)
 - Current focus: dbt modeling, tenant-scoped metrics, and the Next.js apps that consume them
@@ -22,8 +22,8 @@
 </td>
 <td valign="top" width="48%">
 
-![GitHub stats for cruzxanhel](https://github-readme-stats.vercel.app/api?username=cruzxanhel&show_icons=true&hide_border=true&bg_color=00000000&title_color=8C52FF&icon_color=5A6FD6&text_color=9AA6BA&include_all_commits=true)
-![Top languages on cruzxanhel](https://github-readme-stats.vercel.app/api/top-langs/?username=cruzxanhel&layout=compact&hide_border=true&bg_color=00000000&title_color=8C52FF&text_color=9AA6BA&hide=Jupyter%20Notebook)
+<img src="https://github-readme-stats.shion.dev/api?username=cruzxanhel&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=8C52FF&amp;icon_color=5A6FD6&amp;text_color=9AA6BA&amp;include_all_commits=true" alt="GitHub stats for cruzxanhel" />
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=cruzxanhel&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=8C52FF&amp;text_color=9AA6BA&amp;hide=Jupyter%20Notebook" alt="Top languages on cruzxanhel" />
 
 <sub>Public graphs: <a href="https://github.com/cruzxanhel">cruzxanhel</a>. Product repos: <a href="https://github.com/novabridgesys">novabridgesys</a>.</sub>
 
@@ -31,8 +31,8 @@
 </tr>
 </table>
 
-<img src="./assets/label-stack-light.svg?v=2#gh-light-mode-only" alt="02 STACK" height="18" />
-<img src="./assets/label-stack-dark.svg?v=2#gh-dark-mode-only" alt="02 STACK" height="18" />
+<img src="./assets/nb-label-stack-light.svg#gh-light-mode-only" alt="02 STACK" height="18" />
+<img src="./assets/nb-label-stack-dark.svg#gh-dark-mode-only" alt="02 STACK" height="18" />
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-212932?style=flat-square&logo=python&logoColor=8C52FF)
@@ -58,8 +58,8 @@
 ![Vitest](https://img.shields.io/badge/Vitest-212932?style=flat-square&logo=vitest&logoColor=8C52FF)
 ![OpenAI](https://img.shields.io/badge/OpenAI-212932?style=flat-square&logo=openai&logoColor=8C52FF)
 
-<img src="./assets/label-work-light.svg?v=2#gh-light-mode-only" alt="03 WORK" height="18" />
-<img src="./assets/label-work-dark.svg?v=2#gh-dark-mode-only" alt="03 WORK" height="18" />
+<img src="./assets/nb-label-work-light.svg#gh-light-mode-only" alt="03 WORK" height="18" />
+<img src="./assets/nb-label-work-dark.svg#gh-dark-mode-only" alt="03 WORK" height="18" />
 
 **[Multi-tenant scheduling analytics](https://github.com/novabridgesys/multi-tenant-scheduling-analytics)**
 
@@ -83,8 +83,8 @@ Live at cocoastudy.com. Next.js, Supabase, Prisma, and OpenAI.
 
 <div align="center">
 
-<img src="./assets/label-connect-light.svg?v=2#gh-light-mode-only" alt="04 CONNECT" height="18" />
-<img src="./assets/label-connect-dark.svg?v=2#gh-dark-mode-only" alt="04 CONNECT" height="18" />
+<img src="./assets/nb-label-connect-light.svg#gh-light-mode-only" alt="04 CONNECT" height="18" />
+<img src="./assets/nb-label-connect-dark.svg#gh-dark-mode-only" alt="04 CONNECT" height="18" />
 
 <br />
 

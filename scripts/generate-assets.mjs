@@ -103,18 +103,18 @@ function rule(theme) {
 fs.mkdirSync(outDir, { recursive: true })
 
 const files = {
-  "masthead-light.svg": masthead("light"),
-  "masthead-dark.svg": masthead("dark"),
-  "rule-light.svg": rule("light"),
-  "rule-dark.svg": rule("dark"),
-  "label-about-light.svg": label("light", "01", "ABOUT"),
-  "label-about-dark.svg": label("dark", "01", "ABOUT"),
-  "label-stack-light.svg": label("light", "02", "STACK"),
-  "label-stack-dark.svg": label("dark", "02", "STACK"),
-  "label-work-light.svg": label("light", "03", "WORK"),
-  "label-work-dark.svg": label("dark", "03", "WORK"),
-  "label-connect-light.svg": label("light", "04", "CONNECT"),
-  "label-connect-dark.svg": label("dark", "04", "CONNECT"),
+  "nb-masthead-light.svg": masthead("light"),
+  "nb-masthead-dark.svg": masthead("dark"),
+  "nb-rule-light.svg": rule("light"),
+  "nb-rule-dark.svg": rule("dark"),
+  "nb-label-about-light.svg": label("light", "01", "ABOUT"),
+  "nb-label-about-dark.svg": label("dark", "01", "ABOUT"),
+  "nb-label-stack-light.svg": label("light", "02", "STACK"),
+  "nb-label-stack-dark.svg": label("dark", "02", "STACK"),
+  "nb-label-work-light.svg": label("light", "03", "WORK"),
+  "nb-label-work-dark.svg": label("dark", "03", "WORK"),
+  "nb-label-connect-light.svg": label("light", "04", "CONNECT"),
+  "nb-label-connect-dark.svg": label("dark", "04", "CONNECT"),
 }
 
 for (const [name, contents] of Object.entries(files)) {
