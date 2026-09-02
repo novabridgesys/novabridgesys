@@ -7,25 +7,26 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const fontsDir = path.join(root, ".fonts")
 const outDir = path.join(root, "assets")
 
-const display = opentype.parse(
-  fs.readFileSync(path.join(fontsDir, "Fraunces72ptSoft-SemiBold.ttf")).buffer
-)
-const mono = opentype.parse(
-  fs.readFileSync(path.join(fontsDir, "IBMPlexMono-Text.ttf")).buffer
-)
+function loadFont(filename) {
+  const buf = fs.readFileSync(path.join(fontsDir, filename))
+  return opentype.parse(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength))
+}
+
+const display = loadFont("BricolageGrotesque-Bold.ttf")
+const mono = loadFont("IBMPlexMono-Text.ttf")
 
 const palette = {
   light: {
-    ink: "#1A1714",
-    muted: "#6F675E",
-    copper: "#9A6B3F",
-    rule: "#C4B5A0",
+    ink: "#212932",
+    muted: "#5B6172",
+    accent: "#004AAD",
+    rule: "#E2E4EC",
   },
   dark: {
-    ink: "#F2EDE6",
-    muted: "#A8A096",
-    copper: "#D4A574",
-    rule: "#5C5348",
+    ink: "#F6F7FB",
+    muted: "#9AA6BA",
+    accent: "#8C52FF",
+    rule: "#3D4654",
   },
 }
 
@@ -65,10 +66,10 @@ function masthead(theme) {
   const markY = 30
 
   const body = `  <title id="title">Angel Cruz</title>
-  <rect x="${markX}" y="${markY}" width="7" height="7" fill="${c.copper}"/>
+  <rect x="${markX}" y="${markY}" width="7" height="7" fill="${c.accent}"/>
   <path d="${kicker.d}" fill="${c.muted}"/>
   <path d="${name.d}" fill="${c.ink}"/>
-  <rect x="28" y="${ruleY}" width="${Math.max(name.width, 220).toFixed(2)}" height="1" fill="${c.copper}"/>
+  <rect x="28" y="${ruleY}" width="${Math.max(name.width, 220).toFixed(2)}" height="1" fill="${c.accent}"/>
 `
 
   return svgWrap({ width, height, body })
@@ -81,7 +82,7 @@ function label(theme, index, text) {
   const width = Math.ceil(idx.width + 14 + title.width + 4)
   const height = 22
   const body = `  <title id="title">${text}</title>
-  <path d="${idx.d}" fill="${c.copper}"/>
+  <path d="${idx.d}" fill="${c.accent}"/>
   <path d="${title.d}" fill="${c.muted}"/>
 `
   return svgWrap({ width, height, body })
@@ -93,7 +94,7 @@ function rule(theme) {
     width: 720,
     height: 8,
     body: `  <title id="title">rule</title>
-  <rect x="0" y="3" width="72" height="1" fill="${c.copper}"/>
+  <rect x="0" y="3" width="72" height="1" fill="${c.accent}"/>
   <rect x="80" y="3" width="640" height="1" fill="${c.rule}"/>
 `,
   })
