@@ -1,18 +1,18 @@
 <div align="center">
-  <img src="./assets/masthead-light.svg#gh-light-mode-only" alt="Angel Cruz" height="126" />
-  <img src="./assets/masthead-dark.svg#gh-dark-mode-only" alt="Angel Cruz" height="126" />
+  <img src="./assets/masthead-light.svg?v=2#gh-light-mode-only" alt="Angel Cruz" height="126" />
+  <img src="./assets/masthead-dark.svg?v=2#gh-dark-mode-only" alt="Angel Cruz" height="126" />
   <p><em>Data-minded software engineer. I model warehouses and ship the products that sit on them.</em></p>
 </div>
 
-<img src="./assets/rule-light.svg#gh-light-mode-only" alt="" width="720" />
-<img src="./assets/rule-dark.svg#gh-dark-mode-only" alt="" width="720" />
+<img src="./assets/rule-light.svg?v=2#gh-light-mode-only" alt="" width="720" />
+<img src="./assets/rule-dark.svg?v=2#gh-dark-mode-only" alt="" width="720" />
 
 <table>
 <tr>
 <td valign="top" width="52%">
 
-<img src="./assets/label-about-light.svg#gh-light-mode-only" alt="01 ABOUT" height="18" />
-<img src="./assets/label-about-dark.svg#gh-dark-mode-only" alt="01 ABOUT" height="18" />
+<img src="./assets/label-about-light.svg?v=2#gh-light-mode-only" alt="01 ABOUT" height="18" />
+<img src="./assets/label-about-dark.svg?v=2#gh-dark-mode-only" alt="01 ABOUT" height="18" />
 
 - I build analytics systems and full-stack products under [Nova Bridge Technologies](https://github.com/novabridgesys)
 - Current focus: dbt modeling, tenant-scoped metrics, and the Next.js apps that consume them
@@ -31,8 +31,8 @@
 </tr>
 </table>
 
-<img src="./assets/label-stack-light.svg#gh-light-mode-only" alt="02 STACK" height="18" />
-<img src="./assets/label-stack-dark.svg#gh-dark-mode-only" alt="02 STACK" height="18" />
+<img src="./assets/label-stack-light.svg?v=2#gh-light-mode-only" alt="02 STACK" height="18" />
+<img src="./assets/label-stack-dark.svg?v=2#gh-dark-mode-only" alt="02 STACK" height="18" />
 
 **Languages**
 ![Python](https://img.shields.io/badge/Python-212932?style=flat-square&logo=python&logoColor=8C52FF)
@@ -58,8 +58,8 @@
 ![Vitest](https://img.shields.io/badge/Vitest-212932?style=flat-square&logo=vitest&logoColor=8C52FF)
 ![OpenAI](https://img.shields.io/badge/OpenAI-212932?style=flat-square&logo=openai&logoColor=8C52FF)
 
-<img src="./assets/label-work-light.svg#gh-light-mode-only" alt="03 WORK" height="18" />
-<img src="./assets/label-work-dark.svg#gh-dark-mode-only" alt="03 WORK" height="18" />
+<img src="./assets/label-work-light.svg?v=2#gh-light-mode-only" alt="03 WORK" height="18" />
+<img src="./assets/label-work-dark.svg?v=2#gh-dark-mode-only" alt="03 WORK" height="18" />
 
 **[Multi-tenant scheduling analytics](https://github.com/novabridgesys/multi-tenant-scheduling-analytics)**
 
@@ -83,8 +83,8 @@ Live at cocoastudy.com. Next.js, Supabase, Prisma, and OpenAI.
 
 <div align="center">
 
-<img src="./assets/label-connect-light.svg#gh-light-mode-only" alt="04 CONNECT" height="18" />
-<img src="./assets/label-connect-dark.svg#gh-dark-mode-only" alt="04 CONNECT" height="18" />
+<img src="./assets/label-connect-light.svg?v=2#gh-light-mode-only" alt="04 CONNECT" height="18" />
+<img src="./assets/label-connect-dark.svg?v=2#gh-dark-mode-only" alt="04 CONNECT" height="18" />
 
 <br />
 
