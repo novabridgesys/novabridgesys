@@ -22,10 +22,12 @@
 </td>
 <td valign="top" width="48%">
 
-<img src="https://github-readme-stats.shion.dev/api?username=cruzxanhel&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=8C52FF&amp;icon_color=5A6FD6&amp;text_color=9AA6BA&amp;include_all_commits=true" alt="GitHub stats for cruzxanhel" />
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=cruzxanhel&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=8C52FF&amp;text_color=9AA6BA&amp;hide=Jupyter%20Notebook" alt="Top languages on cruzxanhel" />
+<img src="./assets/nb-stats-light.svg#gh-light-mode-only" alt="Nova Bridge GitHub activity" />
+<img src="./assets/nb-stats-dark.svg#gh-dark-mode-only" alt="Nova Bridge GitHub activity" />
+<img src="./assets/nb-langs-light.svg#gh-light-mode-only" alt="Nova Bridge languages" />
+<img src="./assets/nb-langs-dark.svg#gh-dark-mode-only" alt="Nova Bridge languages" />
 
-<sub>Public graphs: <a href="https://github.com/cruzxanhel">cruzxanhel</a>. Product repos: <a href="https://github.com/novabridgesys">novabridgesys</a>.</sub>
+<sub>Includes private Nova Bridge repositories.</sub>
 
 </td>
 </tr>

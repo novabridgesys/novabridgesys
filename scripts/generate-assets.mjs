@@ -100,7 +100,56 @@ function rule(theme) {
   })
 }
 
+function statsCard(theme, stats) {
+  const c = palette[theme]
+  const rows = [
+    ["Pull requests", stats.pullRequests],
+    ["Contributions this year", stats.contributions],
+    ["Repositories", stats.repositories],
+  ]
+  const rowSvg = rows
+    .map(
+      ([label, value], i) => {
+        const y = 68 + i * 28
+        return `<text x="20" y="${y}" fill="${c.muted}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.08em">${label.toUpperCase()}</text>
+  <text x="380" y="${y}" text-anchor="end" fill="${c.ink}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">${value}</text>`
+      }
+    )
+    .join("\n  ")
+  const body = `  <title id="title">Nova Bridge GitHub activity</title>
+  <rect x="12" y="22" width="7" height="7" fill="${c.accent}"/>
+  <text x="24" y="29" fill="${c.muted}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.12em">NOVA BRIDGE  /  ACTIVITY</text>
+  <rect x="20" y="40" width="360" height="1" fill="${c.accent}"/>
+  ${rowSvg}
+`
+  return svgWrap({ width: 400, height: 156, body })
+}
+
+function langsCard(theme, stats) {
+  const c = palette[theme]
+  const maxPct = Math.max(...stats.languages.map((lang) => lang.pct), 1)
+  const rows = stats.languages
+    .map((lang, i) => {
+      const y = 68 + i * 26
+      const barW = Math.max(4, (lang.pct / maxPct) * 168)
+      return `<text x="20" y="${y}" fill="${c.ink}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">${lang.name}</text>
+  <rect x="148" y="${y - 10}" width="${barW.toFixed(1)}" height="6" fill="${c.accent}"/>
+  <text x="380" y="${y}" text-anchor="end" fill="${c.muted}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">${lang.pct}%</text>`
+    })
+    .join("\n  ")
+  const height = 56 + stats.languages.length * 26
+  const body = `  <title id="title">Nova Bridge languages</title>
+  <rect x="12" y="22" width="7" height="7" fill="${c.accent}"/>
+  <text x="24" y="29" fill="${c.muted}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.12em">NOVA BRIDGE  /  LANGUAGES</text>
+  <rect x="20" y="40" width="360" height="1" fill="${c.accent}"/>
+  ${rows}
+`
+  return svgWrap({ width: 400, height, body })
+}
+
 fs.mkdirSync(outDir, { recursive: true })
+
+const stats = JSON.parse(fs.readFileSync(path.join(outDir, "stats.json"), "utf8"))
 
 const files = {
   "nb-masthead-light.svg": masthead("light"),
@@ -115,6 +164,10 @@ const files = {
   "nb-label-work-dark.svg": label("dark", "03", "WORK"),
   "nb-label-connect-light.svg": label("light", "04", "CONNECT"),
   "nb-label-connect-dark.svg": label("dark", "04", "CONNECT"),
+  "nb-stats-light.svg": statsCard("light", stats),
+  "nb-stats-dark.svg": statsCard("dark", stats),
+  "nb-langs-light.svg": langsCard("light", stats),
+  "nb-langs-dark.svg": langsCard("dark", stats),
 }
 
 for (const [name, contents] of Object.entries(files)) {
