@@ -71,6 +71,16 @@ Public dbt reconstruction of a multi-tenant booking warehouse: bronze, silver, a
 ![dbt](https://img.shields.io/badge/dbt-212932?style=flat-square&logo=dbt&logoColor=8C52FF)
 ![DuckDB](https://img.shields.io/badge/DuckDB-212932?style=flat-square&logo=duckdb&logoColor=8C52FF)
 
+**[Dentralink](https://dentralink.com)**
+
+Office knowledge base for dental practices: multi-location offices, providers, and team info in one searchable hub.
+
+Live at [dentralink.com](https://dentralink.com). Next.js, TypeScript, and Supabase.
+
+![Next.js](https://img.shields.io/badge/Next.js-212932?style=flat-square&logo=nextdotjs&logoColor=8C52FF)
+![TypeScript](https://img.shields.io/badge/TypeScript-212932?style=flat-square&logo=typescript&logoColor=8C52FF)
+![Supabase](https://img.shields.io/badge/Supabase-212932?style=flat-square&logo=supabase&logoColor=8C52FF)
+
 **Cocoa Study**
 
 Invite-only study product. Ingests notes, generates flashcards, and runs SM-2 review with a RAG tutor. Next.js, Supabase, Prisma, and OpenAI.
