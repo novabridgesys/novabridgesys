@@ -1,0 +1,43 @@
+name: Refresh stats cards
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v20
+        with:
+          node-version: "20"
+
+      - name: Fetch stats and render cards
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+          STATS_LOGIN: novabridgesys
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Add a classic PAT with repo scope as STATS_TOKEN so private PRs stay visible."
+            exit 1
+          fi
+          mkdir -p .fonts
+          curl -fsSL -o .fonts/BricolageGrotesque-Bold.ttf "https://cdn.jsdelivr.net/fontsource/fonts/bricolage-grotesque@5.2.1/latin-700-normal.ttf"
+          curl -fsSL -o .fonts/IBMPlexMono-Text.ttf "https://raw.githubusercontent.com/IBM/plex/master/packages/plex-mono/fonts/complete/ttf/IBMPlexMono-Text.ttf"
+          npm install opentype.js
+          node scripts/fetch-stats.mjs
+          node scripts/generate-assets.mjs
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.json assets/nb-stats-*.svg assets/nb-langs-*.svg
+          git diff --staged --quiet || git commit -m "Refresh GitHub stats cards."
+          git push
