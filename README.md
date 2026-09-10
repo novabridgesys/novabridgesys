@@ -2,11 +2,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=280&amp;color=051937&amp;section=header&amp;text=Angel%20Cruz&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=DATA%20ANALYST%20%2B%20ENGINEER%20%C2%B7%20LOS%20ANGELES&amp;descSize=16&amp;descAlignY=56" alt="Angel Cruz — Data Analyst and Engineer" width="100%" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=600&amp;size=24&amp;duration=2600&amp;pause=600&amp;color=00E5C3&amp;center=true&amp;vCenter=true&amp;width=780&amp;height=46&amp;lines=Data+Analyst+%2F+Engineer;SQL+%C2%B7+Python+%C2%B7+DAX+%C2%B7+dbt+%C2%B7+Power+BI;I+test+the+finding+before+I+ship+the+dashboard" alt="Typing subtitle: analyst stack" />
+    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=600&amp;size=24&amp;duration=2000&amp;pause=1200&amp;color=00E5C3&amp;center=true&amp;vCenter=true&amp;width=780&amp;height=46&amp;lines=Data+Analyst+%2F+Engineer" alt="Data Analyst / Engineer" />
   </a>
   <br />
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=18&amp;duration=3200&amp;pause=800&amp;color=FF2E97&amp;center=true&amp;vCenter=true&amp;width=780&amp;height=40&amp;lines=Campaign+analysis+that+changes+the+call;Warehouses+you+can+rebuild+from+a+clone;Recommendations+that+survive+a+confidence+interval" alt="Typing subtitle: data storytelling" />
+    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=18&amp;duration=2400&amp;pause=1200&amp;color=FF2E97&amp;center=true&amp;vCenter=true&amp;width=780&amp;height=40&amp;lines=SQL+%C2%B7+Python+%C2%B7+dbt+%C2%B7+Power+BI" alt="SQL · Python · dbt · Power BI" />
   </a>
 </div>
 
